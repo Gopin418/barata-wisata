@@ -27,6 +27,9 @@ body {
   font-weight: normal;
   font-style: normal; }
 
+.font-green {
+  color: #48A740; }
+
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
@@ -349,7 +352,7 @@ h3 {
   z-index: -1; }
 
 .boxed-btn {
-  background: #1EC6B6;
+  background: #48A740;
   color: #fff;
   display: inline-block;
   padding: 14px 44px;
@@ -667,7 +670,9 @@ h3 {
           position: relative;
           text-transform: capitalize; }
           .header-area .main-header-area .main-menu ul li a:hover {
-            color: #1EC6B6; }
+            color: #48A740; }
+          .header-area .main-header-area .main-menu ul li a.active {
+            color: #48A740; }
           @media (min-width: 992px) and (max-width: 1200px) {
             .header-area .main-header-area .main-menu ul li a {
               font-size: 15px; } }
@@ -1768,10 +1773,11 @@ h3 {
           color: #fff; }
 
 .destination_banner_wrap {
-  background-image: url(../img/banner/destination.png);
+  height: 650px;
+  background-image: url(../img/banner/kabah.png);
   padding: 340px 0;
   background-size: cover;
-  background-position: center center; }
+  background-position: 50% 25%; }
   @media (max-width: 767px) {
     .destination_banner_wrap {
       padding: 150px 0; } }
@@ -1814,6 +1820,14 @@ h3 {
     border-top: 1px solid #E4E6E8;
     margin-top: 65px;
     padding-bottom: 65px; }
+  .destination_details_info .bordered-left {
+    border-left: 1px solid #E4E6E8; }
+  .destination_details_info li.checked {
+    background: url(../img/svg_icon/check-square.svg) no-repeat left 2px;
+    padding: 0px 0px 3px 40px;
+    /* reset styles (optional): */
+    list-style: none;
+    margin: 0; }
   .destination_details_info .destination_info h3 {
     font-size: 24px;
     font-weight: 500;

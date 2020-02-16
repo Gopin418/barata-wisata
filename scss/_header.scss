@@ -110,7 +110,10 @@
                         position: relative;
                         text-transform:capitalize;
                         &:hover{
-                            color: #1EC6B6;
+                            color: #48A740;
+                        }
+                        &.active {
+                          color: #48A740;
                         }
                         @media #{$mid_device} {
                             // padding: 41px 0px 10px 0px;

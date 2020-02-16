@@ -184,7 +184,7 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
+    color: #48A740;
     text-decoration: underline
 }
 
@@ -4119,7 +4119,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #007bff
+    background-color: #48A740
 }
 
 .nav-fill .nav-item {
