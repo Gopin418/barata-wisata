@@ -1,11 +1,11 @@
 .slider_bg_1{
-    background-image: url(../img/banner/banner.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .slider_bg_2{
-    background-image: url(../img/banner/banner2.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .slider_bg_3{
-    background-image: url(../img/banner/banner3.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .slider_area{
     position: relative;
@@ -24,7 +24,7 @@
         height: 650px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: 50% 25%;
         @media #{$mobile_device} {
             height: auto;
         }

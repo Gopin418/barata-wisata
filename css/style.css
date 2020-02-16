@@ -825,13 +825,13 @@ h3 {
         transform: translate(-50%, -50%); }
 
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .slider_bg_3 {
-  background-image: url(../img/banner/banner3.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .slider_area {
   position: relative;
@@ -840,7 +840,7 @@ h3 {
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: 50% 25%; }
     @media (max-width: 767px) {
       .slider_area .single_slider {
         height: auto; } }
@@ -1262,20 +1262,21 @@ h3 {
           border-color: transparent; }
 
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam2.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .bradcam_bg_3 {
-  background-image: url(../img/banner/bradcam3.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .bradcam_bg_4 {
-  background-image: url(../img/banner/bradcam4.png); }
+  background-image: url(../img/banner/kabah.png); }
 
 .bradcam_area {
+  height: 650px;
   background-size: cover;
-  background-position: center center;
+  background-position: 50% 25%;
   padding: 175px 0;
   background-repeat: no-repeat;
   position: relative;

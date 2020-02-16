@@ -1,18 +1,19 @@
 .bradcam_bg_1{
-    background-image: url(../img/banner/bradcam.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .bradcam_bg_2{
-    background-image: url(../img/banner/bradcam2.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .bradcam_bg_3{
-    background-image: url(../img/banner/bradcam3.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .bradcam_bg_4{
-    background-image: url(../img/banner/bradcam4.png);
+    background-image: url(../img/banner/kabah.png);
 }
 .bradcam_area{
+    height: 650px;
     background-size: cover;
-    background-position: center center;
+    background-position: 50% 25%;
     padding: 175px 0;
     background-repeat: no-repeat;
     position: relative;
@@ -74,13 +75,13 @@
     &.Extra_padding{
         padding: 399px 0;
         @media #{$mobile_device} {
-            padding: 150px 0; 
+            padding: 150px 0;
         }
         @media #{$tablet_device} {
-            padding: 150px 0; 
+            padding: 150px 0;
         }
         @media #{$mid_device} {
-            padding: 150px 0; 
+            padding: 150px 0;
         }
     }
 }
