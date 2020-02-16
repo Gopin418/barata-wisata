@@ -35,7 +35,7 @@
                 font-weight: 400;
                 color: #fff;
                 text-transform: capitalize;
-                margin-bottom: 45px;
+                margin-bottom: 50px;
                 font-family: $font2;
                 @media #{$mobile_device} {
                     margin-bottom: 20px;
@@ -64,7 +64,7 @@
                         color: $btn-bg;
                     }
                 }
-            
+
             }
             p.footer_text{
                 font-size: 16px;
@@ -84,7 +84,7 @@
                     a{
                     font-weight: 500;
                     color: #B2B2B2;
-                    
+
                     &:hover{
                         color: $btn-bg;
                         border-bottom: 1px solid $btn-bg
@@ -166,7 +166,7 @@
                     width: 33.33%;
                     float: left;
                     padding: 7.5px;
-                    
+
                     overflow: hidden;
                     img{
                         width: 100%;

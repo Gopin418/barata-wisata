@@ -1,5 +1,5 @@
 .where_togo_area{
-    background: #040E27;
+    background: #2A693F;
     padding: 50px 0;
     .form_area{
         h3{
@@ -42,7 +42,7 @@
                 width: 100%;
                 height: 50px;
                 background: transparent ;
-                border: 1px solid #363E52;
+                border: 1px solid #FFFFFF;
                 padding-left: 15px;
                 @include border-radius(5px);
                 color: #fff;
@@ -50,7 +50,7 @@
                     font-size: 16px;
                     color: #AAB1B7;
                     font-weight: 300;
-                   
+
                 }
                 &:focus{
                     outline: none;
@@ -64,7 +64,7 @@
                 color: #AAB1B7;
                 font-weight: 300;
                 background: transparent;
-                border: 1px solid #363E52;
+                border: 1px solid #FFFFFF;
                 @media #{$mobile_device}{
                     margin-bottom: 15px;
                 }

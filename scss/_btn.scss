@@ -51,7 +51,7 @@
     }
 }
 .boxed-btn4 {
-    background: #FF4A52 ;
+    background: #48A740 ;
 	color: #fff;
 	display: inline-block;
 	padding: 13px 39px;
@@ -65,7 +65,7 @@
     @include transition(.3s);
     cursor: pointer;
     &:hover{
-        background: #1EC6B6 ;
+        background: #FF4A52;
         color: #fff !important;
     }
     &:focus{

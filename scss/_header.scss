@@ -65,7 +65,7 @@
                     // padding-left: 20px;
                     width: 70px;
                 }
-               
+
             }
         }
 
@@ -79,7 +79,6 @@
                 top: 50%;
                 @include transform(translateY(-50%));
                 width: 1px;
-                background:#EAEAEA;
                 content: '';
                 left: -10%;
                  @media #{$mid_device} {
@@ -262,7 +261,7 @@
             //     }
             // }
         }
-        
+
     }
     .social_wrap{
         @media #{$mid_device} {
@@ -311,7 +310,7 @@
                 @media #{$large_device}{
                     font-size: 14px;
                 }
-                
+
                 i{
                     color: #FF4A52;
                     font-size: 16px;
@@ -327,8 +326,8 @@
         top: 0;
         bottom: 0;
         z-index: 9;
-        background: #FF4A52;
-        width: 100px;
+        background: #4aa740;
+        width: 150px;
         @media #{$mobile_device} {
             width: 50px;
             right: 60px;
